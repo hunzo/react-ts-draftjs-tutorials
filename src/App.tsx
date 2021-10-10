@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css'
 import TextEditorPage from './components/texteditor.page'
+import 'draft-js/dist/Draft.css'
 
 const App: React.FC = () => {
     return <div className="Container">
